@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class SetFunctionality {
 
@@ -8,6 +9,7 @@ public class SetFunctionality {
     {
         Set<Integer> set = new HashSet<>();// order is not maintained
        // Set<Integer> set = new LinkedHashSet<>();//order is maintained according to insert
+      //  Set<Integer>set = new TreeSet<>()//follow sorted order, use BST 
         set.add(5);
         set.add(1);
         set.add(34);
